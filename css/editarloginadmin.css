@@ -1,0 +1,83 @@
+
+.tela{
+    background-color:rgba(91, 146, 194, 0.24);
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    transform: translate(-50%-50%);
+    padding: 10%;
+    width: 45%;
+    height: 50%;
+    border-radius: 20px;
+    color: black;
+}
+
+input{
+    position: relative;
+     top: -80px;
+     left: -0%;
+     width: 100%;
+     height: 33%;
+     outline: none;
+     font-size: 16px;
+     border-radius: 15px;
+}
+
+.botao2{
+    position: relative;
+    top: -60px;
+    left: 10%;
+    width: 150px;
+    height:30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'centaur';font-size: oblique;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    background-color: #213F59;
+    color: aliceblue;
+    
+}
+
+.botao2:hover{
+    background-color: #90B5D6;
+    cursor: pointer;
+    color: black
+}
+label{
+    text-shadow: 5px 5px 11px rgba(0, 0, 0,1 );
+    font-family: 'Centaur'; font-style: oblique;
+    font-size: 20px;
+    position: relative;
+    top: -78px;
+    left: 2%;
+}
+
+
+.botao{
+    position: relative;
+    top: -30px;
+    left: 50%;
+    width: 150px;
+    height:30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'centaur';font-size: oblique;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    background-color: #213F59;
+    color: aliceblue;
+
+}
+.botao:hover{
+    background-color: #90B5D6;
+    cursor: pointer;
+    color: black
+}
+.alterar{
+    position: relative;
+    text-shadow: 5px 5px 11px rgba(0, 0, 0,1 );
+    font-family: 'Centaur'; font-style: oblique;
+    font-size: 40px;
+    position: absolute;
+    top: 4%;
+    left: 37%;
+}

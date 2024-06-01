@@ -1,0 +1,147 @@
+body{
+    align-items: ;
+}
+
+.foto-container {
+    position: relative;
+    margin: 30px;
+    overflow:hidden;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    filter: blur(2px);
+    top: -60%;
+    width: 20%;
+    left: 35%;
+    
+}
+
+.foto-container:hover {
+    transform: scale(1.4);
+    filter: blur(0px);
+   
+    
+}
+
+.foto {
+    display: block;
+    width: 98%;
+    height: auto;
+    border-radius: 10%;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+   
+}
+
+.foto-container:hover .foto {
+    filter: grayscale(0%);
+
+}.foto-container1 {
+    position: relative;
+    margin: 30px;
+    overflow:hidden;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    filter: blur(2px);
+    top: -60%;
+    width: 20%;
+    left: 35%;
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+.foto-container1:hover {
+    transform: scale(1.4);
+    filter: blur(0px);
+   
+    
+}
+
+.foto1 {
+    display: block;
+    width: 98%;
+    height: auto;
+    border-radius: 10%;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+   
+}
+
+.foto-container1:hover .foto {
+    filter: grayscale(0%);
+}
+.facilite{
+    position: relative;
+    top: 80px;
+    font-family: 'Centaur';
+    font-size: 60px;
+    font-style: oblique;
+    text-shadow: 10px 25px 14px rgb(0, 0, 0);
+}
+.pronome{
+    position: relative;
+    left: 8%;
+    top:auto;
+    font-family: 'Centaur';
+    font-style: oblique;
+    font-size:20px;
+    text-shadow: 10px 25px 14px rgb(0, 0, 0);
+
+
+
+}
+.pronome2{
+    position: relative;
+    left: 0%;
+    top:auto;
+    font-family: 'Centaur';
+    font-style: oblique;
+    font-size: 20px;
+    text-shadow: 10px 25px 14px rgb(0, 0, 0);
+    
+
+}
+
+.container{
+    text-align: center;
+    position: relative;
+    left: -35%;
+    top: 400px;
+
+}
+.container1{
+    text-align: center;
+    position: relative;
+    left: -35%;
+    top: -380px;
+
+}
+.user {
+    position: relative;
+    width: 50px; 
+    height: 50px; 
+    top: 12px;
+    left: 245px;
+}
+
+.nomelogin {
+    color: black; 
+    font-size: 24px; 
+    font-family: Arial, sans-serif; 
+    position: relative;
+    top: -40px;
+    left: 295px;
+    
+}
+
+
+@media only screen and (max-width: 1625px){
+
+    .pronome2{
+        font-size: 25px;
+
+    }
+    .pronome{
+        position: relative;
+        left: 10px;
+    }
+}
