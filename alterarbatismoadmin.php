@@ -2,9 +2,8 @@
 include('protetor.php');
 include ('banco.php');
 
-// Verifique se os dados do formulário foram enviados
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Recupere os dados do formulário
+    
     $denominacao = $_POST['denominacao'];
     $igreja_local = $_POST['igreja_local'];
     $nome = $_POST['nome'];
@@ -37,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-    // SQL UPDATE para atualizar os dados no banco de dados
+    
     $sql ="UPDATE batimos 
     SET denominacao = :denominacao, 
         igreja_local = :igreja_local, 
@@ -103,14 +102,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bindParam(':id', $id);
 
 
-    // Execute a declaração preparada
     if ($stmt->execute()) {
-        // Atualização bem-sucedida, redirecione ou exiba uma mensagem de sucesso
-          echo '<script>alert("Edição com sucesso"); location.href = "relatoriobatismoadmin.php";</script>';
+
+        echo '<script>alert("Edição com sucesso"); location.href = "relatoriobatismoadmin.php";</script>';
             exit();
     }
     } else {
-        // Se houver um erro, exiba uma mensagem de erro ou registre o erro para depuração
+
         echo "Erro ao atualizar o registro.";
         
     }
